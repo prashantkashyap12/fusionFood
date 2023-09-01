@@ -1,0 +1,32 @@
+.whybox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    background-color: rgba(253, 231, 231, 0.594);
+    transition: 0.5s ease;
+}
+.whybox:hover{
+    transform: scale(1.1);
+    background-color:#da472ac0;
+}
+.whybox:hover p{
+    color: #fff;
+}
+.whybox:hover h4{
+    color: #fff;
+}
+.whybox:hover > i{
+}
+.whybox > p{
+    text-align: justify;
+}
+
+.how_we{
+    background: url('../../assets/images/p-pages_section/why_chos.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 2em 0px;
+}

@@ -1,0 +1,99 @@
+.banner-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    border-radius: 10px;
+    height: auto;
+}
+.banner-1{
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url(../../assets/images/vegetable/banner/1.jpg);
+}
+.banner-2{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/2.jpg);
+}
+.banner-3{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/3.jpg);
+}
+.banner-4{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/4.jpg);
+}
+.banner-5{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/5.jpg);
+}
+.banner-6{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/6.jpg);
+}
+.banner-details{
+    height: 100%;
+}
+.banner-box {
+    padding: 15px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #ffffff97;
+    backdrop-filter: blur(5px);
+    width:80%;
+}
+
+.cashback{
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255, 255, 255, 0.1)), url('../../assets/images/p-pages_section/cashback.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 230px;
+    margin: auto;
+}
+
+/* main-section open */
+
+.banner-text > h1{
+    color: #DC3545;
+    font-weight: 700;
+}
+.banner-text > h3{
+    color: #DC3545;
+}
+.banner-text > h6{
+    color: #DC3545;
+}
+.banner-text > p{
+    color: #868686;
+    width: 50%;;
+}
+.banner-box > h5{
+    color: #0DA487;
+    font-weight: 500;
+}
+.banner-box > h6{
+    color: #868686;
+}
+.shop-button{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase; 
+    margin: 20px;
+}
+.gallery-img{
+    margin-top: 2em;
+    padding: 3em 0px;
+    background: linear-gradient(rgba(255, 255, 255, 0.842),rgba(255, 255, 255, 0.842)),url('../../assets/images/p-pages_section/gallert.jpg');
+    background-position: center;
+    background-attachment: fixed;
+}
+.img_box{
+    height: 220px;
+    width: 220px;
+    padding:5px;
+}
+.img_box img{
+    overflow: hidden;
+    transition: 0.5s;;
+}
+.img_box img:hover{
+    transform: scale(1.1);
+}
+.shop-button{
+    background-color: #DC3545;
+    padding: 8px;
+    border-radius: 10px;
+}

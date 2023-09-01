@@ -1,0 +1,30 @@
+.table-view > tbody > tr > th , td{
+    font-size: 12px;
+    padding: 10px;
+}
+.table-view > tbody > tr > th{
+    background-color: #F0F2F2;
+    font-weight: normal;
+}
+.list-style > li{
+    color:gray
+}
+.list-style > li > i , b{
+    color: #DC3545;
+}
+.nav-link{
+    color: #e91e63;
+}
+
+.nav-tabs .nav-link.active  {
+    color: #ffff !important;
+    background-color: #dc3545 !important;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hover-box{
+    transition: 0.5s ease-in;
+}
+.hover-box:hover{
+  transform:translateY(-5px);
+}

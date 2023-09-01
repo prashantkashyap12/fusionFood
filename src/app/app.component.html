@@ -1,0 +1,186 @@
+<!-- Header Start DONE-->
+<header class="bg-success2 d-flex justify-content-center">
+  <div class="p-2 w-75 m-0 d-flex justify-content-between">
+    <h6 class="text-white top-header d-none d-md-block">
+      <strong class="">Welcome to Fastkart!</strong> Wrap new offers/gift every
+      signle day on Weekends.<strong class="">
+        New Coupon Code: <span class="text-danger">FAST024</span>
+      </strong>
+    </h6>
+    <div class="d-flex m-auto d-none d-md-block">
+      <a href=""><img src="../assets/images/country/india-flag-96.png" alt="" style="height: 23px" /></a>
+      &nbsp;&nbsp;
+    </div>
+  </div>
+</header>
+<!-- Header End -->
+
+<!-- main menu section DONE-->
+<div class="container bg-light shadow-sm">
+  <div class="row p-3">
+    <div class="col-md-3 pt-3 text-center text-md-left">
+      <h3 class="fw-bold">Fusion <span class="text-success2 h3">Food</span></h3>
+    </div>
+    <div class="col-md-6 d-none d-md-block">
+      <div class="d-flex">
+        <div class="d-flex align-item-center flex-row main-search">
+          <input
+            type="text"
+            class="p-2 px-3"
+            placeholder="I am Searching for..."
+          />
+          <button class="btn btn-warning text-white">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="d-flex justify-content-evenly align-item-center pt-2">
+        <a href="" class="btn">
+          <i class="fa-solid fa-headset main-search-icon text-success2"></i>
+        </a>
+        <a href="" class="btn">
+          <i class="fa-regular fa-heart main-search-icon text-success2"></i>
+        </a>
+        <a href="" class="btn">
+          <i class="fa-regular fa-user main-search-icon text-success2"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- main menu section CLOSE-->
+
+<!-- navbar-section -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-3">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/home" routerLinkActive="activeNav">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/about_us" routerLinkActive="activeNav">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/our_product" routerLinkActive="activeNav">Our Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="/contact" routerLinkActive="activeNav">Contact</a>
+              </li>
+            </ul>
+            <div class="py-2">
+                <button class="btn btn-danger w-100 w-md-auto border-0 shadow-sm" style="color:#e73e3e; background-color: #ffe4e4" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <i class="fa-solid fa-bolt"></i> OFFER</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+<!-- navbar-section -->
+
+<router-outlet></router-outlet>
+
+<!-- subscribe Open -->
+<section class="py-5">
+  <div class="container">
+    <div class="newsletter-section rounded-4 shadow-sm py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-4 col-lg-5 col-md-7 col-sm-9 offset-xxl-2 offset-md-1">
+                    <div class="newsletter-detail ">
+                        <h2>Join our newsletter and get...</h2>
+                        <h5>$20 discount for your first order</h5>
+                        <div class="input-box rounded-3 d-flex w-100 my-3 my-md-1">
+                          <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="Enter Your Email">
+                          <button class="btn btn-danger m-1">
+                              Subscribe
+                          </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<!-- subscribe close -->
+
+<app-footer></app-footer>
+
+<!-- Model Open -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="d-flex flex-column">
+          <h1 class="modal-title fw-bold fs-5 text-success2">Deal Today</h1>
+          <span>Recommended deals for you.</span>
+        </div>
+        <button type="button" class="btn-close pop-close-btn" data-bs-dismiss="modal" aria-label="Close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="offer-list px-2">
+          <div class="p-4 my-2 w-100 deal-model-success rounded-3">
+            <a href="" class="text-decoration-none">
+              <div class="deal-model">
+                <img src="../assets/images/vegetable/product/10.png" class="object-fit-contain" alt="" />
+                <div class="data-content">
+                  <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
+                  <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="p-4 my-2 w-100 deal-model-danger rounded-3">
+            <a href="#" class="text-decoration-none">
+              <div class="deal-model">
+                <img
+                  src="../assets/images/vegetable/product/10.png"
+                  class="object-fit-contain"
+                  alt=""
+                />
+                <div class="data-content">
+                  <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
+                  <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="p-4 my-2 w-100 deal-model-warning rounded-3">
+            <a href="#" class="text-decoration-none">
+              <div class="deal-model">
+                <img
+                  src="../assets/images/vegetable/product/10.png"
+                  class="object-fit-contain"
+                  alt=""
+                />
+                <div class="data-content">
+                  <h5>Blended Instant Coffee 50 g Buy 1 Get 1 Free</h5>
+                  <h6>$52.57 <del>57.62</del> <span>500 G</span></h6>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Model close -->

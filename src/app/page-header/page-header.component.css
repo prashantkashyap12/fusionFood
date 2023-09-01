@@ -1,0 +1,10 @@
+.img-section{
+    background:linear-gradient(to bottom,#e2f3ffde 0,#fffbefd4 100%), url('../../assets/images/p-pages_section/banner_header.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-section{
+    width: 70%;
+}

@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: "Public Sans",sans-serif;
+    font-size: 14px;
+}
+.bg-success2{
+    background-color: #da472a;
+}
+.text-success2{
+    color: #da472a;
+}
+.shadow-success2{
+    box-shadow: 0px 0px 9px 0px rgba(4, 97, 22, 0.1);
+}

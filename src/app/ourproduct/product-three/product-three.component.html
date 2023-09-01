@@ -1,0 +1,182 @@
+<app-page-header>
+    <h1 class="text-success2">Black Natural Dried Lemon</h1>
+    <p class="pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ullam.</p>
+</app-page-header>
+
+<!-- Product view open -->
+<div class="container pt-2">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="p-2 bg-light">
+               <img src="../../../assets/images/p-pages_section/about-us.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="p-2 mt-2 bg-light rounded-2 shadow-sm">
+                <h6>Available Packaging -</h6>
+                <div class="d-flex justify-content-between py-2">
+                    <button class="btn btn-sm btn-danger"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 100g</button>
+                    <button class="btn btn-sm btn-danger disabled"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 250g</button>
+                    <button class="btn btn-sm btn-danger disabled"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 500g</button>
+                    <button class="btn btn-sm btn-danger disabled"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 1KG</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="p-3">
+                <span class="bg-secondary text-white p-2 rounded-2">30% OFF</span>
+                <h3 class="text-success2 fw-bold py-3">Black Natural Dried Lemon, Cooking Essential for Mandi and Arabic DishesDried Black Lemon | Dried Citrus Fruit</h3>
+                <div class="row">
+                    <div class="col-5">
+                        <div class="d-flex">
+                            <p class="textdark"><span class="text-success2 fs-3 fw-bold"><i class="fa-solid fa-indian-rupee-sign"></i>&nbsp;999/-</span><del class="px-1">981/-</del><br><span class="text-success2">(8% Off)</span></p>
+                        </div>
+                    </div>
+                    <div class="col-3 pt-2">
+                        <div class="d-flex text-warning">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h6>6023 Customer Review</h6>
+                    </div>
+                </div>
+                <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eius nobis modi quis eligendi, voluptatum </p>
+                <div class="d-flex justify-content-evenly">
+                    <div class="d-flex align-item-center">
+                        <button class="btn btn-secondary" (click)="add()"><i class="fa-solid fa-plus"></i></button>
+                        <span class="p-2 mx-1">Buy Unit : <b>{{prod_count}}</b></span>
+                        <button class="btn btn-secondary" (click)="remove()"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                    <button class="px-4 py-1 shadow btn btn-danger border-0 hover-box" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp; Buy Now</button>
+                </div>
+                <hr>
+                <!-- <h5>Store Information</h5>
+                <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vitae porro non. Maiores quas alias ipsam!</p> -->
+                <div class="p-2  h-100">
+                    <table class="table table-bordered shadow-sm">
+                        <tbody>
+                            <tr>
+                                <th class="text-danger"><i class="fa-solid fa-feather-pointed"></i>&nbsp; Diet Type :</th>
+                                <td>Vegetarian</td>
+                            </tr>
+                            <tr>
+                                <th class="text-danger"><i class="fa-solid fa-feather-pointed"></i>&nbsp; Serial Number:</th>
+                                <td>SDFVW65-21467</td>
+                            </tr>
+                            <tr>
+                                <th class="text-danger"><i class="fa-solid fa-feather-pointed"></i>&nbsp; Manufacturing :</th>
+                                <td>Jun 4, 2023</td>
+                            </tr>
+                            <tr>
+                                <th class="text-danger"><i class="fa-solid fa-feather-pointed"></i>&nbsp; Stock :</th>
+                                <td>98744 Items Left</td>
+                            </tr>
+                            <tr>
+                                <th class="text-danger"><i class="fa-solid fa-feather-pointed"></i>&nbsp; Temperature Condition :</th>
+                                <td>100% Fresh</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-2 bg-light rounded-2 shadow-sm d-none d-md-block">
+                <img src="../../../assets/images/p-pages_section/category_b.jpg" class="img-fluid rounded-3 shadow-sm my-3" alt="">
+                <h5 class="pt-2 "><i class="fa-solid fa-cart-shopping text-danger"></i>&nbsp; <span class="fw-bold text-danger">Trending products</span> </h5>
+                <hr class="text-danger" size="2">
+                <div class="card mb-2 hover-box shadow-sm">
+                    <div class="card-body ">
+                       <div class="d-flex align-item-center">
+                            <img src="https://picsum.photos/200" alt="" class="img-fluid rounded-2" style="width: 50px; height: 65px;">
+                            <p class="px-2 text-justify text-danger" style="cursor: pointer;" routerLink="/our_product">Premium Orange Fruits (Dried Orange) | Dried Orange Slice</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="card hover-box shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-item-center">
+                            <img src="https://picsum.photos/200" alt="" class="img-fluid rounded-2" style="width: 50px; height: 60px;">
+                            <p class="px-2 text-justify text-danger" style="cursor: pointer;" routerLink="/our_product">Dry Natrual Sweet Lime Fruits | Dried Sweet Lime Slice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 d-flex justify-content-end my-1">
+                    <span routerLink="/our_product" class="text-right text-danger">view products</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row py-2 border">
+        <div class="col-md-8">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link btn btn-danger active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Description</button>
+                    <button class="nav-link btn btn-danger" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Additional Info</button>
+                    <button class="nav-link btn btn-danger" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Care Instuctions</button>
+                    <button class="nav-link btn btn-danger" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" >Review</button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                    <p class="p-3">Black lemon is very fragrant, somewhat bitter, earthy, smoky and has a slightly fermented taste. They are used to bring acidity to a dish. They can be used whole, sliced ​​or powdered. Black lemons are generally used to flavor meat, fish, vegetables, stews or even soups. It is also possible to use them to add flavor to a dessert, such as ice cream or cake. They're used in the Middle East as a souring agent in chutneys, soups and stews, and even ground into flatbreads. The powder made from black lemons has a sweet-tart flavor that is unique and has no substitute. </p>
+                </div>
+                <div class="tab-pane fade py-2" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                    <table class="table border table-bordered table-view ">
+                        <tbody>
+                            <tr>
+                                <th>Net Quantity</th>
+                                <td>100.00 gram</td>
+                                <th>Manufacturer</th>
+                                <td>Fusion Food</td>
+                            </tr>
+                            <tr>
+                                <th>Serial Number</th>
+                                <td>10210293322</td>
+                                <th>Country of Origin : </th>
+                                <td>Inida</td>
+                            </tr>
+                            <tr>
+                                <th>Ingredient Type</th>
+                                <td>Dry Product</td>
+                                <th>Date First Available</th>
+                                <td>24 Jan 2023</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade py-2" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                    <p class="p-3">We have travelled across the country to handpick the finest quality products at the best possible rates. Fusion Food have been in the market for the past 5 years and we have tied up with all major offline retail majors. Our products are subjected to rigorous quality control procedures throughout the procurement and packaging processes.</p>
+                </div>
+                <div class="tab-pane fade py-2" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"Overall, a great product that I will definitely be purchasing again" <br><span class="text-secondary">- Shivani Kashyap</span><br><span class="text-secondary">3 month ago</span> </i>
+                    </div>
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"Best part, it doesn't feel oily at all. Loved it!" <br><span class="text-secondary">- Aditya Rajpurohit</span><br><span class="text-secondary">3 month ago</span> </i>
+                    </div>
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"Very tasty, worth buying it must try fusion food best product Black lamon……. Everyone in family loved it…" <br><span class="text-secondary">- Suman Verma</span><br><span class="text-secondary">3 month ago</span> </i>
+                    </div>
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"It has a crisp texture and a fresh taste without any off-putting odors. Wonderful experience of taste." <br><span class="text-secondary">- Kirti Parashar</span><br><span class="text-secondary">3 month ago</span> </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+            <img src="../../../assets/images/p-pages_section/lemon-black.jpg" class="mh-100 mw-100 rounded-4" alt="">
+        </div>
+    </div>
+</div>
+<!-- Product view close -->
+
+<app-order-conform-pop></app-order-conform-pop>
