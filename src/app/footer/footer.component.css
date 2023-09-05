@@ -5,34 +5,7 @@
     font-size: 14px;
     padding-top: 15px;
     color: red;
-}
-/* footer open */
-.newsletter-section .newsletter-box {
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden
-}
-.newsletter-section {
-    background-image: url("../../assets/images/vegetable/newsletter/1.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat; 
-}
-.newsletter-detail{
-    border-radius: 10px;
-}
-.newsletter-detail h2{
-    color: #fff;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-.newsletter-detail h5{
-    color: #ffbc5d;
-}
-.newsletter-detail > .input-box{
-    background-color: #fff;
-}
-footer::after {
+}footer::after {
     content: "";
     position: absolute;
     width: 30%;
