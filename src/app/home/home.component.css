@@ -68,10 +68,14 @@
     color: #868686;
 }
 .shop-button{
+    background-color: #DC3545;
     color: #ffff;
+    margin: 20px;
+    padding: 8px 15px;
+    border-radius: 20px;
     text-decoration: none;
     text-transform: uppercase; 
-    margin: 20px;
+    box-shadow: 0px 1px 8px #ff818196;
 }
 .gallery-img{
     margin-top: 2em;
@@ -93,7 +97,5 @@
     transform: scale(1.1);
 }
 .shop-button{
-    background-color: #DC3545;
-    padding: 8px;
-    border-radius: 10px;
+    
 }

@@ -1,34 +1,34 @@
+
+<div class="border-bottom"></div>
+
 <!-- Header Start DONE-->
 <header class="bg-success2 d-flex justify-content-center">
   <div class="p-2 w-75 m-0 d-flex justify-content-between">
-    <h6 class="text-white top-header d-none d-md-block">
-      <strong class="">Welcome to Fastkart!</strong> Wrap new offers/gift every
+    <h6 class="text-white top-header d-none d-md-block m-auto">
+      <strong class="">Welcome to FUSION FOOD!</strong> Wrap new offers/gift every
       signle day on Weekends.<strong class="">
-        New Coupon Code: <span class="text-danger">FAST024</span>
+        New Coupon Code: <span class="text-light">FUSION0024</span>
       </strong>
     </h6>
     <div class="d-flex m-auto d-none d-md-block">
-      <a href=""><img src="../assets/images/country/india-flag-96.png" alt="" style="height: 23px" /></a>
+      <a href=""><img src="../assets/images/country/india-flag-96.png" alt="" style="height: 40px" /></a>
       &nbsp;&nbsp;
     </div>
   </div>
 </header>
 <!-- Header End -->
 
+<section class="">
 <!-- main menu section DONE-->
-<div class="container bg-light shadow-sm">
-  <div class="row p-3">
-    <div class="col-md-3 pt-3 text-center text-md-left">
-      <h3 class="fw-bold">Fusion <span class="text-success2 h3">Food</span></h3>
+<div class="container  broder-bottom">
+  <div class="row px-3">
+    <div class="col-md-3 text-center text-md-left">
+      <img src="../assets/images/logo.png" class="img-fluid" style="width: 70px;">
     </div>
-    <div class="col-md-6 d-none d-md-block">
+    <div class="col-md-6 py-3 d-none d-md-block">
       <div class="d-flex">
-        <div class="d-flex align-item-center flex-row main-search">
-          <input
-            type="text"
-            class="p-2 px-3"
-            placeholder="I am Searching for..."
-          />
+        <div class="d-flex align-item-center flex-row main-search rounded-pill">
+          <input type="text" class="p-2 px-3" placeholder="I am Searching for..." />
           <button class="btn btn-warning text-white">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
@@ -36,15 +36,13 @@
       </div>
     </div>
     <div class="col-md-3">
-      <div class="d-flex justify-content-evenly align-item-center pt-2">
-        <a href="" class="btn">
-          <i class="fa-solid fa-headset main-search-icon text-success2"></i>
-        </a>
-        <a href="" class="btn">
-          <i class="fa-regular fa-heart main-search-icon text-success2"></i>
-        </a>
-        <a href="" class="btn">
-          <i class="fa-regular fa-user main-search-icon text-success2"></i></a>
+      <div class="d-flex justify-content-evenly align-item-center py-3">
+        <a routerLink="/contact" class="btn"><i class="fa-solid fa-headset main-search-icon text-success2"></i></a>
+        <a href="" class="btn"><i class="fa-regular fa-heart main-search-icon text-success2"></i></a>
+        <a href="" class="btn"><i class="fa-regular fa-user main-search-icon text-success2"></i></a>
+
+
+        
       </div>
     </div>
   </div>
@@ -55,9 +53,9 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand text-danger fw-bold" href="#"><i class="fa-solid fa-bars text-danger"></i> &nbsp; Fusionfood</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -69,9 +67,23 @@
               <li class="nav-item">
                 <a class="nav-link" routerLink="/about_us" routerLinkActive="activeNav">About</a>
               </li>
+
+
               <li class="nav-item">
                 <a class="nav-link" routerLink="/our_product" routerLinkActive="activeNav">Our Product</a>
               </li>
+
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" routerLink="/our_product" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Product
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+
               <li class="nav-item">
                 <a class="nav-link" routerLink="/contact" routerLinkActive="activeNav">Contact</a>
               </li>
@@ -87,7 +99,7 @@
   </div>
 </div>
 <!-- navbar-section -->
-
+</section>
 <router-outlet></router-outlet>
 
 <!-- subscribe Open -->

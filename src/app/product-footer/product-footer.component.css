@@ -1,0 +1,16 @@
+.coming-soon{
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255, 255, 255, 0.1)), url('../../assets/images/p-pages_section/comming-soon.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 230px;
+    margin: auto;
+}
+.cashback{
+    background: linear-gradient(rgba(255,255,255,0.1),rgba(255, 255, 255, 0.1)), url('../../assets/images/p-pages_section/cashback.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 230px;
+    margin: auto;
+}

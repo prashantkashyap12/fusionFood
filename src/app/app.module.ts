@@ -21,6 +21,8 @@ import { TermCondiComponent } from './term-condi/term-condi.component';
 import { RetrunPolicyComponent } from './retrun-policy/retrun-policy.component';
 import { FooterComponent } from './footer/footer.component';
 import { OrderConformPopComponent } from './order-conform-pop/order-conform-pop.component';
+import { ProductFooterComponent } from './product-footer/product-footer.component';
+import { ProductShortviewComponent } from './product-shortview/product-shortview.component';
 
 
 
@@ -44,6 +46,8 @@ import { OrderConformPopComponent } from './order-conform-pop/order-conform-pop.
     RetrunPolicyComponent,
     FooterComponent,
     OrderConformPopComponent,
+    ProductFooterComponent,
+    ProductShortviewComponent,
 
   ],
   imports: [

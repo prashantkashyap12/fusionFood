@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-page-error',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./page-error.component.css']
 })
 export class PageErrorComponent {
-
+ 
 }
