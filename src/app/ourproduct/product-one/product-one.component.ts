@@ -17,4 +17,12 @@ export class ProductOneComponent {
   add(){
     this.prod_count++;
   }
+
+  productbook:string= "Dry Orange Slices";
+  constructor(){
+    this.productBook();
+  }
+  productBook(){
+    localStorage.setItem("product", `${this.productbook}`);
+  }
 }

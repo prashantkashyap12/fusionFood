@@ -1,0 +1,189 @@
+<app-page-header>
+    <h1 class="text-success2">Natural Dried Pineapple Slices</h1>
+    <p class="pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ullam.</p>
+</app-page-header>
+
+<!-- Product view open -->
+<div class="container pt-2">
+    <div class="row">
+        <div class="col-md-4 order-2 order-md-1">
+            <div class="p-2 bg-light">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <img src="../../../assets/images/p-pages_section/Dry_Dried_Pineapple/1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <img src="../../../assets/images/p-pages_section//Dry_Dried_Pineapple/2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        <img src="../../../assets/images/p-pages_section//Dry_Dried_Pineapple/3.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                        <img src="../../../assets/images/p-pages_section//Dry_Dried_Pineapple/4.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <ul class="nav nav-pills mt-3 justify-content-evenly d-flex" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                    <img src="../../../assets/images/p-pages_section//Dry_Dried_Pineapple/1.png" style="height:38px;width:38px;">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    <img src="../../../assets/images/p-pages_section//Dry_Dried_Pineapple/2.png" style="height:38px;width:38px;">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <img src="../../../assets/images/p-pages_section//Dry_Dried_Pineapple/3.png" style="height:38px;width:38px;">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">
+                    <img src="../../../assets/images/p-pages_section//Dry_Dried_Pineapple/4.png" style="height:38px;width:38px;">
+                    </button>
+                </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="col-md-5 order-1 order-md-2">
+            <div class="p-3">
+                <span class="bg-success bg-gradient text-white p-2 rounded-2">30% OFF</span>
+                <h3 class="py-3">Natural Dried Pineapple, Cooking Essential for Mandi Dried Pineapple | Dried Pineapple</h3>
+                <div class="row">
+                    <div class="col-5">
+                        <div class="d-flex">
+                            <p class="textdark"><span class="text-success2 fs-3 fw-bold"><i class="fa-solid fa-indian-rupee-sign"></i>&nbsp;60/-</span><del class="px-1">185/-</del><br><span class="text-success2">(8% Off)</span></p>
+                        </div>
+                    </div>
+                    <div class="col-3 pt-2"> </div>
+                    <div class="col-4">
+                        <div class="d-flex text-warning">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <h6>6023 Customer Review</h6>
+                    </div>
+                </div>
+                <b class="text-dark">Available offers :</b>
+                <p class="lh-md"><i class="fa-solid fa-tags" style="color:#1a941a"></i>&nbsp; Partner Offer: Purchase now & get 2 surprise cashback coupon in Future. </p>
+                <div class="d-flex justify-content-evenly">
+                    <div class="d-flex align-item-center">
+                        <button class="btn btn-secondary" (click)="add()"><i class="fa-solid fa-plus"></i></button>
+                        <span class="p-2 mx-1">Buy Unit : <b>{{prod_count}}</b></span>
+                        <button class="btn btn-secondary" (click)="remove()"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                    <button class="px-4 py-1 shadow btn btn-danger border-0 hover-box" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp; Buy Now</button>
+                </div>
+                <hr>
+                <div class="p-2 mt-2 bg-light rounded-2 shadow-sm d-md-block d-none">
+                    <h6>Available Packaging -</h6>
+                    <div class="d-flex justify-content-between py-2">
+                        <button class="btn btn-sm btn-danger "><i class="fa-solid fa-weight-hanging"></i>&nbsp; 25g</button>
+                        <button class="btn btn-sm btn-danger disabled"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 100g</button>
+                        <button class="btn btn-sm btn-danger disabled"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 250g</button>
+                        <button class="btn btn-sm btn-danger disabled"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 500g</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 order-3">
+            <div class="p-2 bg-light rounded-2 shadow-sm d-none d-md-block">
+                <img src="../../../assets/images/p-pages_section/category_b.jpg" class="img-fluid rounded-3 shadow-sm my-3" alt="">
+                <h5 class="pt-2 "><i class="fa-solid fa-cart-shopping text-danger"></i>&nbsp; <span class="fw-bold text-danger">Trending products</span> </h5>
+                <hr class="text-danger" size="2">
+                <div class="card mb-2 hover-box shadow-sm mb-2 rounded-2">
+                    <div class="card-body bg-danger bg-gradient ">
+                       <div class="d-flex align-item-center">
+                            <img src="../../../assets/images/p-pages_section/Dry_Orange/shortview.jpg" alt="" class="img-fluid rounded-2" style="width: 50px; height: 50px;">
+                            <p class="px-2 lg-sm text-justify text-white m-0" style="cursor: pointer;" routerLink="/dry_orange">Premium Orange Fruits (Dried Orange) | Dried Orange Slice</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="card hover-box shadow-sm mt-2">
+                    <div class="card-body bg-danger bg-gradient rounded-3">
+                        <div class="d-flex align-item-center">
+                            <img src="../../../assets/images/p-pages_section/Dry_Lime/shortview.jpg" alt="" class="img-fluid rounded-2" style="width: 50px; height: 50px;">
+                            <p class="px-2 lg-sm text-justify text-white m-0" style="cursor: pointer;" routerLink="/sweet_lime">Dry Natrual Sweet Lime Fruits | Dried Sweet Lime Slice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 d-flex justify-content-end my-1">
+                    <span routerLink="/our_product" class="text-right text-danger">view products</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row py-2 border">
+        <div class="col-md-8">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link btn btn-danger active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Description</button>
+                    <button class="nav-link btn btn-danger" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Additional Info</button>
+                    <button class="nav-link btn btn-danger" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Care Instuctions</button>
+                    <button class="nav-link btn btn-danger" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" >Review</button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                    <p class="p-3">"Dried pineapple is a good source of calcium, potassium, manganese, fiber, as well as vitamins A, B and C. According to manganese content in it , it’s useful for bone health and ossification, as well as treating colds and coughing, curing cardiovascular disease and strengthening the body’s immune system Dried pineapple is rich in dietary fiber in the form of insoluble fiber. This type of fiber supports the digestive tract to make sure things run smoothly. Insoluble fiber also provides a sense of fullness, so dried pineapple slices are a great option to satisfy hunger between meals." </p>
+                </div>
+                <div class="tab-pane fade py-2" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                    <table class="table border table-bordered table-view ">
+                        <tbody>
+                            <tr>
+                                <th>Net Quantity</th>
+                                <td>25 gram</td>
+                                <th>Manufacturer</th>
+                                <td>Fusion Food</td>
+                            </tr>
+                            <tr>
+                                <th>Serial Number</th>
+                                <td>10210293577</td>
+                                <th>Country of Origin : </th>
+                                <td>Inida</td>
+                            </tr>
+                            <tr>
+                                <th>Ingredient Type</th>
+                                <td>Dry Product</td>
+                                <th>Date First Available</th>
+                                <td>24 Jan 2023</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade py-2" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                    <p class="p-3">We have travelled across the country to handpick the finest quality products at the best possible rates. Fusion Food have been in the market for the past 5 years and we have tied up with all major offline retail majors. Our products are subjected to rigorous quality control procedures throughout the procurement and packaging processes.</p>
+                </div>
+                <div class="tab-pane fade py-2" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"Very good tasty product. Good for a snack in the evening. Can be offered to guests as well." <br><span class="text-secondary">- Shobhit Agrawal</span><br><span class="text-secondary">13 days ago</span> </i>
+                    </div>
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"Delicious product" <br><span class="text-secondary">- Govind Prasad Bansal</span><br><span class="text-secondary">20 days ago</span> </i>
+                    </div>
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"Average in size and taste" <br><span class="text-secondary">- Suman Rathor</span><br><span class="text-secondary">27 days ago</span> </i>
+                    </div>
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"I tasted it and find it quite good. I find it close to natural pine apple. They are all 4 to 5 cm discs. Now I am not sure how much sugar is added which should have been mentioned on pack but no problem with the taste which is quite good. " <br><span class="text-secondary">- Krishna Parashar</span><br><span class="text-secondary">1 month ago</span> </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+            <img src="../../../assets/images/p-pages_section/lemon-black.jpg" class="mh-100 mw-100 rounded-4" alt="">
+        </div>
+    </div>
+</div>
+<!-- Product view close -->
+
+<app-order-conform-pop></app-order-conform-pop>

@@ -1,0 +1,192 @@
+<app-page-header>
+    <h1 class="text-success2">Natural Water Melon Slices</h1>
+    <p class="pera">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ullam.</p>
+</app-page-header>
+
+<!-- Product view open -->
+<div class="container pt-2">
+    <div class="row">
+        <div class="col-md-4 order-2 order-md-1">
+            <div class="p-2 bg-light">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <img src="../../../assets/images/p-pages_section/Dry_water_melon/11.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <img src="../../../assets/images/p-pages_section/Dry_water_melon/2.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        <img src="../../../assets/images/p-pages_section/Dry_water_melon/1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                        <img src="../../../assets/images/p-pages_section/Dry_water_melon/4.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <ul class="nav nav-pills mt-3 justify-content-evenly d-flex" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                    <img src="../../../assets/images/p-pages_section/Dry_water_melon/11.png" style="height:38px;width:38px;">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                    <img src="../../../assets/images/p-pages_section/Dry_water_melon/2.png" style="height:38px;width:38px;">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                    <img src="../../../assets/images/p-pages_section/Dry_water_melon/1.png" style="height:38px;width:38px;">
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false">
+                    <img src="../../../assets/images/p-pages_section/Dry_water_melon/4.png" style="height:38px;width:38px;">
+                    </button>
+                </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="col-md-5 order-1 order-md-2">
+            <div class="p-3">
+                <span class="bg-success bg-gradient text-white p-2 rounded-2">30% OFF</span>
+                <h3 class="py-3"> Natural Dried Dried Water Melon, Cooking Essential for Mandi | Dried Water Melon</h3>
+                <div class="row">
+                    <div class="col-5">
+                        <div class="d-flex">
+                            <p class="textdark"><span class="text-success2 fs-3 fw-bold"><i class="fa-solid fa-indian-rupee-sign"></i>&nbsp;80/-</span><del class="px-1">165/-</del><br><span class="text-success2">(8% Off)</span></p>
+                        </div>
+                    </div>
+                    <div class="col-3 pt-2">
+                       
+                        
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex text-warning">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <h6>6023 Customer Review</h6>
+                    </div>
+                </div>
+                <b class="text-dark">Available offers :</b>
+                <p class="lh-md"><i class="fa-solid fa-tags" style="color:#1a941a"></i>&nbsp; Partner Offer: Purchase now & get 2 surprise cashback coupon in Future. </p>
+                <div class="d-flex justify-content-evenly">
+                    <div class="d-flex align-item-center">
+                        <button class="btn btn-secondary" (click)="add()"><i class="fa-solid fa-plus"></i></button>
+                        <span class="p-2 mx-1">Buy Unit : <b>{{prod_count}}</b></span>
+                        <button class="btn btn-secondary" (click)="remove()"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                    <button class="px-4 py-1 shadow btn btn-danger border-0 hover-box" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp; Buy Now</button>
+                </div>
+                <hr>
+                <div class="p-2 mt-2 bg-light rounded-2 shadow-sm d-md-block d-none">
+                    <h6>Available Packaging -</h6>
+                    <div class="d-flex justify-content-between py-2">
+                        <button class="btn btn-sm btn-danger "><i class="fa-solid fa-weight-hanging"></i>&nbsp; 25g</button>
+                        <button class="btn btn-sm btn-danger disabled"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 100g</button>
+                        <button class="btn btn-sm btn-danger disabled"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 250g</button>
+                        <button class="btn btn-sm btn-danger disabled"><i class="fa-solid fa-weight-hanging"></i>&nbsp; 500g</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 order-3">
+            <div class="p-2 bg-light rounded-2 shadow-sm d-none d-md-block">
+                <img src="../../../assets/images/p-pages_section/category_b.jpg" class="img-fluid rounded-3 shadow-sm my-3" alt="">
+                <h5 class="pt-2 "><i class="fa-solid fa-cart-shopping text-danger"></i>&nbsp; <span class="fw-bold text-danger">Trending products</span> </h5>
+                <hr class="text-danger" size="2">
+                <div class="card mb-2 hover-box shadow-sm rounded-2 mb-2">
+                    <div class="card-body bg-danger bg-gradient ">
+                       <div class="d-flex align-item-center">
+                            <img src="../../../assets/images/p-pages_section/Dry_Lime/shortview.jpg" alt="" class="img-fluid rounded-2" style="width: 50px; height: 50px;">
+                            <p class="px-2 lh-sm text-justify text-white m-0" style="cursor: pointer;" routerLink="/sweet_lime">Sweet Lime (Dried Sweet Lime) | Mosambi Dry Slice</p>
+                       </div>
+                    </div>
+                </div>
+                <div class="card hover-box shadow-sm">
+                    <div class="card-body bg-danger bg-gradient rounded-3 mt-2">
+                        <div class="d-flex align-item-center">
+                            <img src="../../../assets/images/p-pages_section/Dry_Dried_Pineapple/shortview.png" alt="" class="img-fluid rounded-2" style="width: 50px; height: 50px;">
+                            <p class="px-2 lh-sm text-justify text-white m-0" style="cursor: pointer;" routerLink="/Dried_Pineapples">Dried Pineapple, Cooking Essential for Mandi Dried Pineapple</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 d-flex justify-content-end my-1">
+                    <span routerLink="/our_product" class="text-right text-danger">view products</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row py-2 border">
+        <div class="col-md-8">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link btn btn-danger active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Description</button>
+                    <button class="nav-link btn btn-danger" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Additional Info</button>
+                    <button class="nav-link btn btn-danger" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Care Instuctions</button>
+                    <button class="nav-link btn btn-danger" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" >Review</button>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                    <p class="p-3">Dried Watermelon Slices, one of the delicious gifts of nature, offers a completely natural and additive-free snack option. Fresh watermelons grown in the sunny climate of  India are dried with the help of special machines and packaged under hygienic conditions. Offering a healthy alternative thanks to the absence of additives or added sugar, this product also stands out as a nutritious option with its high vitamin A and potassium content. Helping to strengthen your immune system, Dried Watermelon Slices can also be an ideal option to meet your sweet needs. This delicious alternative, which you can consume as a snack or use in salads and appetizers, will contribute to your nutrition in accordance with your healthy lifestyle.</p>
+                </div>
+                <div class="tab-pane fade py-2" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+                    <table class="table border table-bordered table-view ">
+                        <tbody>
+                            <tr>
+                                <th>Net Quantity</th>
+                                <td>25 gram</td>
+                                <th>Manufacturer</th>
+                                <td>Fusion Food</td>
+                            </tr>
+                            <tr>
+                                <th>Serial Number</th>
+                                <td>102102935575</td>
+                                <th>Country of Origin : </th>
+                                <td>Inida</td>
+                            </tr>
+                            <tr>
+                                <th>Ingredient Type</th>
+                                <td>Dry Product</td>
+                                <th>Date First Available</th>
+                                <td>24 Jan 2023</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade py-2" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+                    <p class="p-3">Dried Watermelon Slices, which can be preferred by those looking for a natural and nutritious snack, can be both a practical and useful option. Our products are subjected to rigorous quality control procedures throughout the procurement and packaging processes.</p>
+                </div>
+                <div class="tab-pane fade py-2" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"Never eaten watermelon chips before. These taste so fresh and are super sweet." <br><span class="text-secondary">- Durgesh Kumari</span><br><span class="text-secondary">12 days ago</span> </i>
+                    </div>
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"I have never come across such product. Taste is amazing.. Slices are fresh and crispy without any preservatives.." <br><span class="text-secondary">- Avdesh Kumar</span><br><span class="text-secondary">15 days ago</span> </i>
+                    </div>
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"The crisps are so light on the belly too, one doesn't need to feel guilty about having tasty snacks anymore!" <br><span class="text-secondary">- Daisey Rathor</span><br><span class="text-secondary">1 month ago</span> </i>
+                    </div>
+                    <div class="d-flex p-2 ">
+                        <img src="https://picsum.photos/200" style="height: 70px;width: 70px;" class="rounded-2">
+                        <i class="mx-3">"The product was of good quality. Taste and freshness were satisfactory. It's worth purchasing. " <br><span class="text-secondary">- Anju Agnihotri</span><br><span class="text-secondary">3 month ago</span> </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+            <img src="../../../assets/images/p-pages_section/lemon-black.jpg" class="mh-100 mw-100 rounded-4" alt="">
+        </div>
+    </div>
+</div>
+<!-- Product view close -->
+
+<app-order-conform-pop></app-order-conform-pop>

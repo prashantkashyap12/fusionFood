@@ -7,22 +7,25 @@
     height: auto;
 }
 .banner-1{
-    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url(../../assets/images/vegetable/banner/1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url(../../assets/images/p-pages_section/banner/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 .banner-2{
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/p-pages_section/banner/2.jpg);
 }
 .banner-3{
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/p-pages_section/banner/3.jpg);
 }
 .banner-4{
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/p-pages_section/banner/4.jpg);
 }
 .banner-5{
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/5.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/p-pages_section/banner/5.jpg);
 }
 .banner-6{
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/vegetable/banner/6.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../../assets/images/p-pages_section/banner/6.jpg);
 }
 .banner-details{
     height: 100%;

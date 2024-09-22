@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./order-conform-pop.component.css']
 })
 export class OrderConformPopComponent {
+  main:string ="computer kendra";
+  
+  constructor(){
+    this.mainfunction()
+  }
+ 
+  bookOrder:any = "";
+  mainfunction(){
+    this.bookOrder =  localStorage.getItem("product");
+  }
+
 
 }

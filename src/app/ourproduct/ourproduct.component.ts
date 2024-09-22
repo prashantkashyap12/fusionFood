@@ -9,160 +9,103 @@ export class OurproductComponent {
 
 
   public productdb:any = [
-    { productmainimg:'https://picsum.photos/200/300.jpg', 
-      productShortName:'Black Lemon', 
-      productName:'Black Natural Dried Lemon, Cooking Essential for Mandi and Arabic DishesDried Black Lemon | Dried Citrus Fruit', 
-      price:120, 
-      product_dis:169, 
-      weight:'100g',
-      link:'/black_lemon',
-      customerReview:1021, 
-      discription:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum, eum veritatis dignissimos vitae? Voluptatibus, ullam totam corrupti dolor impedit laudantium a fugiat atque repudiandae. Laborum, ducimus?',
-      AdditionalInfo:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum, eum veritatis dignissimos vitae? Voluptatibus, ullam totam corrupti dolor impedit laudantium a fugiat atque repudiandae. Laborum, ducimus?',
-      careInstruction:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum, eum veritatis dignissimos vitae? Voluptatibus, ullam totam corrupti dolor impedit laudantium a fugiat atque repudiandae. Laborum, ducimus?',
-      stock:12,
-      review:[
-        {
-          img:'url1',
-          name:'prasad kumar garg',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        },
-        {
-          img:'url2',
-          name:'prasad kumar garg2',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        },
-        {
-          img:'url1',
-          name:'prasad kumar garg3',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        },
-        {
-          img:'url1',
-          name:'prasad kumar garg4',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        }
-      ]
-    },
-    { productmainimg:'https://picsum.photos/200/300.jpg', 
+    { productmainimg:'../../assets/images/p-pages_section/Dry_Orange/shortview.jpg', 
       productShortName:'Oranges Dried', 
-      productName:'Black Natural Dried Lemon, Cooking Essential for Mandi and Arabic DishesDried Black Lemon | Dried Citrus Fruit', 
       price:80, 
       product_dis:99, 
-      weight:'80g',
       link:'/dry_orange',
-      customerReview:1021, 
-      discription:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum, eum veritatis dignissimos vitae? Voluptatibus, ullam totam corrupti dolor impedit laudantium a fugiat atque repudiandae. Laborum, ducimus?',
-      AdditionalInfo:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum, eum veritatis dignissimos vitae? Voluptatibus, ullam totam corrupti dolor impedit laudantium a fugiat atque repudiandae. Laborum, ducimus?',
-      careInstruction:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum, eum veritatis dignissimos vitae? Voluptatibus, ullam totam corrupti dolor impedit laudantium a fugiat atque repudiandae. Laborum, ducimus?',
-      review:[
-        {
-          img:'url1',
-          name:'prasad kumar garg',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        },
-        {
-          img:'url2',
-          name:'prasad kumar garg2',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        },
-        {
-          img:'url1',
-          name:'prasad kumar garg3',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        },
-        {
-          img:'url1',
-          name:'prasad kumar garg4',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        }
-      ]
+      uid:'',
     },
-    { productmainimg:'https://picsum.photos/200/300.jpg', 
+    { productmainimg:'../../assets/images/p-pages_section/Dry_Black/shortview.png', 
+      productShortName:'Black Lemon', 
+      price:120, 
+      product_dis:169, 
+      link:'/black_Lemon',
+      uid:'',
+    },
+    { productmainimg:'../../assets/images/p-pages_section/Dry_Lime/shortview.jpg', 
       productShortName:'Sweet Lime', 
-      productName:'Black Natural Dried Lemon, Cooking Essential for Mandi and Arabic DishesDried Black Lemon | Dried Citrus Fruit', 
       price:60, 
       product_dis:84, 
-      weight:'25g',
       link:'/sweet_lime',
-      customerReview:1021, 
-      discription:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum, eum veritatis dignissimos vitae? Voluptatibus, ullam totam corrupti dolor impedit laudantium a fugiat atque repudiandae. Laborum, ducimus?',
-      AdditionalInfo:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum, eum veritatis dignissimos vitae? Voluptatibus, ullam totam corrupti dolor impedit laudantium a fugiat atque repudiandae. Laborum, ducimus?',
-      careInstruction:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum, eum veritatis dignissimos vitae? Voluptatibus, ullam totam corrupti dolor impedit laudantium a fugiat atque repudiandae. Laborum, ducimus?',
-      review:[
-        {
-          img:'url1',
-          name:'prasad kumar garg',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        },
-        {
-          img:'url2',
-          name:'prasad kumar garg2',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        },
-        {
-          img:'url1',
-          name:'prasad kumar garg3',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        },
-        {
-          img:'url1',
-          name:'prasad kumar garg4',
-          Comment:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa eos excepturi nam nostrum,',
-          comment_date:'12-08-2022',
-        }
-      ]
+      uid:'',
     },
+    { productmainimg:'../../assets/images/p-pages_section/Dried_Apple/shortview.png', 
+      productShortName:'Dried Apple', 
+      price:60, 
+      product_dis:85, 
+      link:'/Dried_apple',
+      uid:'',
+    },
+    {
+      productmainimg:'../../assets/images/p-pages_section/Dry_Papaya/1.jpg', 
+      productShortName:'Dried Papaya Slices', 
+      price:60, 
+      product_dis:86, 
+      link:'/Dried_Papaya_Slices',
+      uid:'',
+    },
+    {
+      productmainimg:'../../assets/images/p-pages_section/Dry_water_melon/1.jpg', 
+      productShortName:'Dried Water melon', 
+      price:80, 
+      product_dis:87, 
+      link:'/Dried_water_melon',
+      uid:'',
+    },
+    {
+      productmainimg:'../../assets/images/p-pages_section/Dry_lamon/shortPic.png', 
+      productShortName:'Dried Lemon Sliies', 
+      price:60, 
+      product_dis:88, 
+      link:'/Dried_Lemon_Slices',
+      uid:'',
+    },
+    {
+      productmainimg:'../../assets/images/p-pages_section/Dry_Dried_Pineapple/shortview.png', 
+      productShortName:'Dried Pineapple', 
+      price:60, 
+      product_dis:89, 
+      link:'/Dried_Pineapples',
+      uid:'',
+    }
   ]
-  
   public productflex:any = [
     {
-      productmainimg:'https://picsum.photos/200/300.jpg', 
+      productmainimg:'../../assets/images/p-pages_section/red_chilly/shortImg.jpeg', 
       shortheading:'Red chilly flakes', 
-      productheading:'Red chilly flakes', 
-      productprice:17,
-      productdiscount:30,
-      link:'/sweet_lime',
-
+      productprice:0.50,
+      productdiscount:1,
+      link:'/chilli_flakes',
+      uid:'',
     },
     {
-      productmainimg:'https://picsum.photos/200/300.jpg', 
+      productmainimg:'../../assets/images/p-pages_section/orogino/shortImg.jpeg', 
       shortheading:'Oregano flakes', 
-      productheading:'Red chilly flakes', 
-      productprice:20,
-      productdiscount:35,
-      link:'/sweet_lime',
+      productprice:0.50,
+      productdiscount:1.25,
+      link:'/oregano_flakes',
+      uid:'',
     }
   ]
-
   public bulkproduct:any = [
     {
-      productimage:'https://picsum.photos/200/300.jpg',
-      producthead:'Sweet Lime & Dried Orange ',
-      productheading:'Instock',
+      productimage:'../../assets/images/commingsoon.png',
+      producthead:'Sweet Lime & Orange ',
       productprice:140,
       productdiscount:210,
-      link:'/sweet_lime',
+      link:'/comming_soon',
+      uid:'',
     },
     {
-      productimage:'https://picsum.photos/200/300.jpg',
+      productimage:'../../assets/images/commingsoon.png',
       producthead:'Black Lemon & Sweet Lime ',
-      productheading:'Instock',
       productprice:140,
       productdiscount:210,
-      link:'/sweet_lime',
+      link:'/comming_soon',
+      uid:'',
     }
+
   ]
 
 }

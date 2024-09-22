@@ -10,22 +10,26 @@ import { HomeComponent } from './home/home.component';
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { OurproductComponent } from './ourproduct/ourproduct.component';
-import { PageErrorComponent } from './page-error/page-error.component';
 import { ProductOneComponent } from './ourproduct/product-one/product-one.component';
-import { ProductTwoComponent } from './ourproduct/product-two/product-two.component';
-import { ProductThreeComponent } from './ourproduct/product-three/product-three.component';
-import { ProductFourComponent } from './ourproduct/product-four/product-four.component';
-import { ProductFiveComponent } from './ourproduct/product-five/product-five.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { TermCondiComponent } from './term-condi/term-condi.component';
 import { RetrunPolicyComponent } from './retrun-policy/retrun-policy.component';
 import { FooterComponent } from './footer/footer.component';
 import { OrderConformPopComponent } from './order-conform-pop/order-conform-pop.component';
-import { ProductFooterComponent } from './product-footer/product-footer.component';
 import { ProductShortviewComponent } from './product-shortview/product-shortview.component';
-
-
-
+import { RedicrectionPageComponent } from './redicrection-page/redicrection-page.component';
+import { BlackLamonComponent } from './ourproduct/black-lamon/black-lamon.component';
+import { SweetLimeComponent } from './ourproduct/sweet-lime/sweet-lime.component';
+import { RedChilliComponent } from './ourproduct/red-chilli/red-chilli.component';
+import { OreganoComponent } from './ourproduct/oregano/oregano.component';
+import { ChilliFlakesComponent } from './ourproduct/chilli-flakes/chilli-flakes.component';
+import { DriedPineapplesComponent } from './ourproduct/dried-pineapples/dried-pineapples.component';
+import { DriedWaterMelonComponent } from './ourproduct/dried-water-melon/dried-water-melon.component';
+import { DriedAppleComponent } from './ourproduct/dried-apple/dried-apple.component';
+import { DriedPineAppleComponent } from './ourproduct/dried-pine-apple/dried-pine-apple.component';
+import { DriedPapayaComponent } from './ourproduct/dried-papaya/dried-papaya.component';
+import { HashLocationStrategy, LocationStrategy, Location } from '@angular/common';
+import { UserLogModule } from './auth/user-log.module';
 
 @NgModule({
   declarations: [
@@ -35,34 +39,38 @@ import { ProductShortviewComponent } from './product-shortview/product-shortview
     PageHeaderComponent,
     AboutusComponent,
     OurproductComponent,
-    PageErrorComponent,
     ProductOneComponent,
-    ProductTwoComponent,
-    ProductThreeComponent,
-    ProductFourComponent,
-    ProductFiveComponent,
     PrivacyPolicyComponent,
     TermCondiComponent,
     RetrunPolicyComponent,
     FooterComponent,
     OrderConformPopComponent,
-    ProductFooterComponent,
     ProductShortviewComponent,
-
+    RedicrectionPageComponent,
+    BlackLamonComponent,
+    SweetLimeComponent,
+    RedChilliComponent,
+    OreganoComponent,
+    ChilliFlakesComponent,
+    DriedPineapplesComponent,
+    DriedWaterMelonComponent,
+    DriedAppleComponent,
+    DriedPineAppleComponent,
+    DriedPapayaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    UserLogModule
   ],
   exports:[
     ProductOneComponent,
-    ProductTwoComponent,
-    ProductThreeComponent,
-    ProductFourComponent,
-    ProductFiveComponent,
+
   ],
-  providers: [],
+  providers: [
+    Location, {provide: LocationStrategy, useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { 

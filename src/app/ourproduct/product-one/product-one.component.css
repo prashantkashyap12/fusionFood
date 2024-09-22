@@ -3,7 +3,9 @@
     padding: 10px;
 }
 .table-view > tbody > tr > th{
-    background-color: #F0F2F2;
+    background-color: #ee4555;
+    color: #fff;
+    font-weight: 700;
     font-weight: normal;
 }
 .list-style > li{

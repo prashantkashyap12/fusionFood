@@ -7,4 +7,67 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+
+  public productdb:any = [
+    { productmainimg:'../../assets/images/p-pages_section/Dry_Orange/shortview.jpg', 
+      productShortName:'Oranges Dried', 
+      price:80, 
+      product_dis:99, 
+      link:'/dry_orange',
+      uid:'',
+    },
+    { productmainimg:'../../assets/images/p-pages_section/Dry_Black/shortview.png', 
+      productShortName:'Black Lemon', 
+      price:120, 
+      product_dis:169, 
+      link:'/black_Lemon',
+      uid:'',
+    },
+    { productmainimg:'../../assets/images/p-pages_section/Dry_Lime/shortview.jpg', 
+      productShortName:'Sweet Lime', 
+      price:60, 
+      product_dis:84, 
+      link:'/sweet_lime',
+      uid:'',
+    },
+    { productmainimg:'../../assets/images/p-pages_section/Dried_Apple/shortview.png', 
+      productShortName:'Dried Apple', 
+      price:60, 
+      product_dis:85, 
+      link:'/Dried_apple',
+      uid:'',
+    },
+    {
+      productmainimg:'../../assets/images/p-pages_section/Dry_Papaya/1.jpg', 
+      productShortName:'Dried Papaya Slices', 
+      price:60, 
+      product_dis:86, 
+      link:'/Dried_Papaya_Slices',
+      uid:'',
+    },
+    {
+      productmainimg:'../../assets/images/p-pages_section/Dry_water_melon/1.jpg', 
+      productShortName:'Dried Water melon', 
+      price:80, 
+      product_dis:87, 
+      link:'/Dried_water_melon',
+      uid:'',
+    },
+    {
+      productmainimg:'../../assets/images/p-pages_section/Dry_lamon/shortPic.png', 
+      productShortName:'Dried Lemon Sliies', 
+      price:60, 
+      product_dis:88, 
+      link:'/Dried_Lemon_Slices',
+      uid:'',
+    },
+    {
+      productmainimg:'../../assets/images/p-pages_section/Dry_Dried_Pineapple/shortview.png', 
+      productShortName:'Dried Pineapple', 
+      price:60, 
+      product_dis:89, 
+      link:'/Dried_Pineapples',
+      uid:'',
+    }
+  ]
 }
